@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body {
+  	background: #fff;
+  	color: #000;
+  	font-size: 13px;
+  	height: auto;
+  	padding-bottom: 20px;
+}
+h1 {
+  	font-family: Georgia, serif;
+  	font-weight: normal;
+  	padding-top: 20px;
+  	text-align: center;
+}
+h2 {
+  	font-family: Georgia, serif;
+  	font-weight: normal;
+  	padding-top: 18px;
+  	text-align: center;
+}
+p {
+  	font-family: Arial, sans-serif;
+  	padding-top: 13px;
+  	text-align: center;
+	overflow: hidden;
+	padding: 10px 0;
+	text-align: center;
+	margin: 0px;
+}
+*[class*="grid"] {
+	background: #ccc;
+	margin: 10px 0px;
+}
+*[class*="nest"] {
+	background: #888;
+}
+*[class*="nest"] [class*="nest"] {
+	background: #444;
+}
+*[class*="nest"] *[class*="nest"] p {
+	color: #fff;
+}
+.container_12 {
+  	background-color: #fff;
+  	background-repeat: repeat-y;
+  	margin-bottom: 20px;
+  	background-image: url(../img/12_col.gif);
+}
