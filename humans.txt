@@ -9,6 +9,7 @@ Name:
 	Adobe - Dreamweaver, Fluid Grid System
 	Nathan Smith - 960 Grid System
 	Mark Otto, Jacob Thornton - Twitter Bootstrap
+	Eric Meyer - Reset
 
 /* SITE */
 Last update: 2012/08/07 

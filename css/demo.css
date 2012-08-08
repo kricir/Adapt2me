@@ -29,7 +29,8 @@ p {
 }
 *[class*="grid"] {
 	background: #ccc;
-	margin: 10px 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 *[class*="nest"] {
 	background: #888;
